@@ -104,6 +104,45 @@ nav a{
     line-height: 26px;
 }
 
+.second-section{
+    text-align: center;
+    margin-top: 100px;
+}
+.image-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin: auto;
+}
+.image-paragraph{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 643px;
+    padding-left: 398px;
+    padding-right: 398px;
+}
+.image-container{
+    padding-left: 135px;
+    padding-right: 135px;
+}
+.first-row{
+    display: flex;
+    gap: 24px;
+    padding-top: 48px;
+}
+.second-row{
+    display: flex;
+    gap: 24px;
+    padding-top: 24px;
+}
+.third-row{
+    display: flex;
+    gap: 24px;
+    padding-top: 24px;
+}
 
 /* responsive part */
 @media screen and (max-width: 600px) {
@@ -112,7 +151,10 @@ nav a{
         height: 489px;
     }
     .input-container,
-    .main
+    .main,
+    .first-row,
+    .second-row,
+    .third-row
     {
         flex-direction: column;
         gap: 15px;
@@ -132,12 +174,27 @@ nav a{
         padding-right: 16px;
         font-weight: 400;
     }
-    .input{
-        width: 254px;
-        
+    .image-paragraph{
+        text-align: center;
+        width: 309px;
+        font-size: 14px;
+        line-height: 24px;
+        padding-left: 130px;
     }
-    .button{
+    .list-paragraph{
+        line-height: 23px;
+        font-size: 14px;
+    }
+    .input{
+        width: 254px; 
+    }
+    .btn-primary{
         width: 254px;
+    }
+    .image-container,
+    .image
+    {
+        justify-content: center;
     }
     
 }
