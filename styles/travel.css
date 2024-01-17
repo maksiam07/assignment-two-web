@@ -363,6 +363,13 @@ form button{
 .last-p{
     margin-bottom: 110px;
 }
+#horizontal{
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 /* responsive part */
 @media screen and (max-width: 600px) {
